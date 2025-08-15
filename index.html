@@ -1,78 +1,168 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portafolio | Camila Rayo</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <header>
-        <h1>Camila Rayo</h1>
-        <nav>
-            <ul>
-                <li><a href = "#sobremi"></a></li>
-                <li><a href = "#proyectos"></a></li>
-                <li><a href = "#habilidades"></a></li>
-                <li><a href = "#educacion"></a></li>
-                <li><a href = "#contacto"></a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="sobremi">
-        <h2>Sobre mí</h2>
-        <p>
-            Soy Camila Rayo, desarrolladora web en formacion, apasionada por el diseño, el maquillaje y la tecnologia. Me gusta combinar lo tecnico con lo visual, y crear experiencias digitales que conecten con las personas.
-        </p>
-    </section>
-
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <div class="proyecto-grid">
-            <div class="proyecto">
-                <img src="imagenes/idioma.png" alt="Dia del Idioma">
-                <h3>Dia del Idioma</h3>
-                <p>Pagina diseñada para recordar nuestra literatura en el dia del idioma</p>
-                <a href="https://lilim69.github.io/Dia-idioma/" target="_blank">Ver proyecto</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="habilidades">
-        <h2> Habilidades Tecnicas</h2>
-        <ul class="habilidades">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>Bootstrap</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </section>
-
-    <section id="educacion">
-        <h2>Educacion</h2>
-        <ul>
-            <li>Tecnico en Analisis de Muestras Quimicas | SENA 2020</li>
-            <li>Tecnologo en Desarrollo informatico | Universidad ECCI 5° Semestre</li>
-            <li>Bootcamp Desarrollo Fullstack JavaScript | Generation Colombia</li>
-        </ul>
-    </section>
-
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Correo: <a href="mailto:rayocamila01@gmail.com">rayocamila01@gmail.com</a></p>
-        <p><a href="LINK_CV" download>Descargar mi CV</a></p>
-        <div class="redes">
-            <a href="https://github.com/lilim69" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/maria-camila-rayo-dueñas-desarrolladora-fullstack" target="_blank">LinkedIn</a>
+  <div class="sidebar">
+    <div class="profile">
+      <h2>Camila Rayo</h2>
+      <p>Desarrolladora Web</p>
     </div>
+
+    <nav class="side-nav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobremi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contáctame</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <section id="inicio" class="section-full bg-light">
+      <div class="section-content flex two-columns center-v">
+        <div class="column" data-aos="fade-right">
+          <img src="imagenes/3.jpg" alt="Camila Rayo" class="perfil-img" />
+        </div>
+        <div class="column text-left" data-aos="fade-left">
+          <h1 class="nombre-camila">Camila Rayo</h1>
+          <p class="subtitulo">Desarrolladora Web</p>
+          <p class="descripcion">
+            Apasionada por crear experiencias digitales con estilo y funcionales, creando interfaces que conectan con las personas.
+          </p>
+          <a href="#proyectos" class="btn">Ver mis proyectos</a>
+        </div>
+      </div>
+    </section>
+<div class="tech-marquee">
+  <div class="tech-track">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Java</span>
+    <span>Figma</span>
+    <span>Git & GitHub</span>
+    <span>Responsive Design</span>
+    <span>Python</span>
+    <span>Kotlin</span>
+  </div>
+</div>
+
+    <section id="sobremi" class="section-full bg-white">
+      <div class="section-content">
+        <h2 class="text-center">Sobre mí</h2>
+  <div class="flex">
+                  <p>
+            Estudio Ingeniería de Sistemas, una carrera que llegó a mí gracias a una beca, pero que rápidamente se
+            convirtió en una pasión. Desde siempre he destacado por mi habilidad con la tecnología, y hoy combino ese
+            talento con una nueva faceta creativa que descubrí al cursar un bootcamp de desarrollo web.
+          </p>
+          <p>
+            El diseño web despertó en mí una sensibilidad estética que no sabía que tenía. Me inspira aprender nuevas
+            tecnologías, avanzar con el mundo y convertir cada herramienta digital en un aliado para mi profesión. Me
+            gusta crear experiencias que funcionen, pero que también conecten visualmente.
+          </p>
+        </div>
+        <p class="footnote">
+          Dato curioso: amo todos los animales. Tengo solo 7 mascotas porque no tengo espacio para más...
+        </p>
+      </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Camila Rayo. Todos los derechos reservados.</p>
-    </footer>
+    <section id="habilidades" class="section-full bg-light text-center">
+      <div class="section-content">
+        <h2 class="hb-titulo">Habilidades</h2>
+        <div class="grid skills-grid">
+          <div class="skill">
+            <div class="hb" data-percentage="50">
+              <svg viewBox="0 0 100 100">
+                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                <circle class="progress" cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="percentage">50%</div>
+            </div>
+            <h5>HTML</h5>
+          </div>
+          <div class="skill">
+            <div class="hb" data-percentage="40">
+              <svg viewBox="0 0 100 100">
+                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                <circle class="progress" cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="percentage">40%</div>
+            </div>
+            <h5>CSS</h5>
+          </div>
+        <div class="skill">
+            <div class="hb" data-percentage="40">
+              <svg viewBox="0 0 100 100">
+                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                <circle class="progress" cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="percentage">40%</div>
+            </div>
+            <h5>JavaScript</h5>
+          </div>
+          <div class="skill">
+            <div class="hb" data-percentage="40">
+              <svg viewBox="0 0 100 100">
+                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                <circle class="progress" cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="percentage">40%</div>
+            </div>
+            <h5>Boostrap</h5>
+          </div>
+          <div class="skill">
+            <div class="hb" data-percentage="30">
+              <svg viewBox="0 0 100 100">
+                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                <circle class="progress" cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="percentage">30%</div>
+            </div>
+            <h5>Python</h5>
+          </div>
+          <div class="skill">
+            <div class="hb" data-percentage="30">
+              <svg viewBox="0 0 100 100">
+                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                <circle class="progress" cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="percentage">30%</div>
+            </div>
+            <h5>Java</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
+  <footer class="text-center">
+    <p>© 2025 Camila Rayo | <a href="mailto:camila@example.com">camila@example.com</a></p>
+    <div class="social-icons">
+      <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
