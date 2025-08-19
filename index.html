@@ -10,12 +10,32 @@
     rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;500;600&display=swap"
+    rel="stylesheet">
 
 </head>
 
 <body>
-
+<nav class="mobile-nav">
+  <div class="nav-container">
+    <div class="nav-brand">
+      <span>Camila Rayo</span>
+    </div>
+    <button class="nav-toggle" id="navToggle">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#sobremi">Sobre mí</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contáctame</a></li>
+    </ul>
+  </div>
+</nav>
   <div class="sidebar">
     <div class="profile">
       <h2>Camila Rayo</h2>
@@ -43,31 +63,32 @@
           <h1 class="nombre-camila">Camila Rayo</h1>
           <p class="subtitulo">Desarrolladora Web</p>
           <p class="descripcion">
-            Apasionada por crear experiencias digitales con estilo y funcionales, creando interfaces que conectan con las personas.
+            Apasionada por crear experiencias digitales con estilo y funcionales, creando interfaces que conectan con
+            las personas.
           </p>
           <a href="#proyectos" class="btn">Ver mis proyectos</a>
         </div>
       </div>
     </section>
-<div class="tech-marquee">
-  <div class="tech-track">
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>JavaScript</span>
-    <span>Java</span>
-    <span>Figma</span>
-    <span>Git & GitHub</span>
-    <span>Responsive Design</span>
-    <span>Python</span>
-    <span>Kotlin</span>
-  </div>
-</div>
+    <div class="tech-marquee">
+      <div class="tech-track">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Java</span>
+        <span>Figma</span>
+        <span>Git & GitHub</span>
+        <span>Responsive Design</span>
+        <span>Python</span>
+        <span>Kotlin</span>
+      </div>
+    </div>
 
     <section id="sobremi" class="section-full bg-white">
       <div class="section-content">
         <h2 class="text-center">Sobre mí</h2>
-  <div class="flex">
-                  <p>
+        <div class="flex">
+          <p>
             Estudio Ingeniería de Sistemas, una carrera que llegó a mí gracias a una beca, pero que rápidamente se
             convirtió en una pasión. Desde siempre he destacado por mi habilidad con la tecnología, y hoy combino ese
             talento con una nueva faceta creativa que descubrí al cursar un bootcamp de desarrollo web.
@@ -108,7 +129,7 @@
             </div>
             <h5>CSS</h5>
           </div>
-        <div class="skill">
+          <div class="skill">
             <div class="hb" data-percentage="40">
               <svg viewBox="0 0 100 100">
                 <circle class="bg" cx="50" cy="50" r="45"></circle>
@@ -151,13 +172,122 @@
         </div>
       </div>
     </section>
+
+<section id="proyectos" class="proyectos">
+  <h2>Mis Proyectos</h2>
+  
+  <div class="carousel-container">
+    <div class="carousel-track" id="carouselTrack">
+      
+      <div class="proyecto-card">
+        <div class="proyecto">
+          <a href="https://lilim69.github.io/Dia-idioma/" target="_blank">
+            <img src="imagenes/idioma.png" alt="Dia del idioma">
+            <div class="proyecto-content">
+              <h3>Dia del Idioma</h3>
+              <p>Sitio web dedicado al día del idioma español</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="proyecto-card">
+        <div class="proyecto">
+          <a href="https://lilim69.github.io/CartaPresentacion/" target="_blank">
+            <img src="imagenes/carta.png" alt="Carta presentacion">
+            <div class="proyecto-content">
+              <h3>Carta de Presentación</h3>
+              <p>Carta de presentacion interactiva</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="proyecto-card">
+        <div class="proyecto">
+          <a href="https://lilim69.github.io/redSocial/" target="_blank">
+            <img src="imagenes/redsocial.png" alt="Red Social">
+            <div class="proyecto-content">
+              <h3>Red Social</h3>
+              <p>Plataforma de publicacion tipo red social</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="proyecto-card">
+        <div class="proyecto">
+          <a href="https://lilim69.github.io/blog/" target="_blank">
+            <img src="imagenes/blog.png" alt="Blog">
+            <div class="proyecto-content">
+              <h3>Blog</h3>
+              <p>Blog para desarrolladoras web.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="proyecto-card">
+        <div class="proyecto">
+          <a href="https://lilim69.github.io/ABC/" target="_blank">
+            <img src="imagenes/abc.png" alt="ABC">
+            <div class="proyecto-content">
+              <h3>ABC</h3>
+              <p>Aplicación educativa interactiva para niños.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="proyecto-card">
+        <div class="proyecto">
+          <a href="https://lilim69.github.io/Dia-idioma/" target="_blank">
+            <img src="imagenes/idioma.png" alt="Dia del idioma">
+            <div class="proyecto-content">
+              <h3>Dia del Idioma</h3>
+              <p>Sitio web dedicado al día del idioma español</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="proyecto-card">
+        <div class="proyecto">
+          <a href="https://lilim69.github.io/CartaPresentacion/" target="_blank">
+            <img src="imagenes/carta.png" alt="Carta presentacion">
+            <div class="proyecto-content">
+              <h3>Carta de Presentación</h3>
+              <p>Carta de presentacion interactiva</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="proyecto-card">
+        <div class="proyecto">
+          <a href="https://lilim69.github.io/redSocial/" target="_blank">
+            <img src="imagenes/redsocial.png" alt="Red Social">
+            <div class="proyecto-content">
+              <h3>Red Social</h3>
+              <p>Plataforma de publicacion tipo red social</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</section>
+
+
   </main>
 
   <footer class="text-center">
-    <p>© 2025 Camila Rayo | <a href="mailto:camila@example.com">camila@example.com</a></p>
+    <p>© 2025 Camila Rayo | <a href="rayocamila01@gmail.com">rayocamila01@gmail.com</a></p>
     <div class="social-icons">
-      <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>
+      <a href="https://github.com/lilim69" target="_blank">GitHub</a>
+      <a href="www.linkedin.com/in/maria-camila-rayo-dueñas-desarrolladora-fullstack" target="_blank">LinkedIn</a>
     </div>
   </footer>
 
@@ -165,4 +295,5 @@
   <script src="script.js"></script>
   <script>AOS.init();</script>
 </body>
+
 </html>
